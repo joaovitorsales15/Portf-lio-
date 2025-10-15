@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======= ESTILO GLOBAL ======= */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg, #dbe8ff, #f3f7ff);
+  color: #1e2b44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ======= CONTAINER GERAL ======= */
+header, main, footer {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #a9c5f7;
+  box-shadow: 0 0 15px rgba(80, 120, 200, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #1e2b44;
+}
+
+#typing-text {
+  font-size: 1.1rem;
+  color: #466bb0;
+  min-height: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ======= BOTÃO DE IDIOMA ======= */
+.lang-btn {
+  background-color: #8fb8ff;
+  border: 2px solid #466bb0;
+  color: #1e2b44;
+  padding: 8px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+.lang-btn:hover {
+  background-color: #b3d0ff;
+  transform: scale(1.1);
+}
+
+/* ======= MENU ======= */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e2b44;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(140, 180, 250, 0.25);
+  color: #2e4f8a;
+}
+
+/* ======= SEÇÕES ======= */
+section {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(100, 130, 200, 0.15);
+}
+
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #2e4f8a;
+  border-bottom: 2px solid #a9c5f7;
+  padding-bottom: 5px;
+}
+
+section h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #466bb0;
+}
+
+section p, section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #24314f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* ======= BOTÕES SOCIAIS ======= */
+.btn-social {
+  display: inline-block;
+  text-decoration: none;
+  color: #1e2b44;
+  font-weight: 600;
+  border: 2px solid #8fb8ff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 8px;
+  transition: all 0.3s ease;
+  background-color: rgba(240, 247, 255, 0.8);
+}
+
+.btn-social:hover {
+  background-color: #8fb8ff;
+  color: #fff;
+  border-color: #466bb0;
+}
+
+.linkedin { background-color: rgba(173, 203, 255, 0.3); }
+.github { background-color: rgba(200, 210, 230, 0.3); }
+.instagram { background-color: rgba(240, 210, 250, 0.3); }
+
+/* ======= RODAPÉ ======= */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #33415c;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
