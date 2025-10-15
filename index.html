@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>João Vitor Ferreira Sales - Portfólio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img src="/foto 3.jpg" alt="Foto de João Vitor" class="profile-img" />
+      <div>
+        <h1>João Vitor Ferreira Sales</h1>
+        <p id="typing-text"></p>
+        <button class="lang-btn" id="lang-toggle">🌐 EN</button>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+      <li><a href="#interests" data-pt="Interesses" data-en="Interests">Interesses</a></li>
+      <li><a href="musica.html" data-pt="Música 🎵" data-en="Music 🎵">Música 🎵</a></li>
+      <li><a href="#contact" data-pt="Contato" data-en="Contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- SOBRE / ABOUT -->
+    <section id="about">
+      <h2 data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+      <p data-pt="Olá! Sou João Vitor Ferreira Sales, tenho 24 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Cruzeiro do Sul."
+         data-en="Hello! I'm João Vitor Ferreira Sales, 24 years old, and I hold a degree in Systems Analysis and Development from Universidade Cruzeiro do Sul.">
+         Olá! Sou João Vitor Ferreira Sales, tenho 24 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Cruzeiro do Sul.
+      </p>
+      <p data-pt="Atualmente curso pós-graduação em Ciência de Dados e Big Data Analytics na mesma instituição e busco constante aprimoramento técnico."
+         data-en="I'm currently pursuing a postgraduate degree in Data Science and Big Data Analytics at the same institution, always seeking technical improvement.">
+         Atualmente curso pós-graduação em Ciência de Dados e Big Data Analytics na mesma instituição e busco constante aprimoramento técnico.
+      </p>
+
+      <h3 data-pt="Certificações:" data-en="Certifications:">Certificações:</h3>
+      <ul>
+        <li data-pt="Engenharia de Dados com Databricks, Spark e PySpark (Udemy)" data-en="Data Engineering with Databricks, Spark, and PySpark (Udemy)">Engenharia de Dados com Databricks, Spark e PySpark (Udemy)</li>
+        <li data-pt="SQL com PostgreSQL (em andamento - Udemy)" data-en="SQL with PostgreSQL (in progress - Udemy)">SQL com PostgreSQL (em andamento - Udemy)</li>
+        <li data-pt="Power BI (em andamento - Udemy)" data-en="Power BI (in progress - Udemy)">Power BI (em andamento - Udemy)</li>
+        <li data-pt="Excel Básico (SENAI Online)" data-en="Basic Excel (SENAI Online)">Excel Básico (SENAI Online)</li>
+        <li data-pt="Inglês – aulas particulares" data-en="English – private lessons">Inglês – aulas particulares</li>
+      </ul>
+    </section>
+
+    <!-- INTERESSES / INTERESTS -->
+    <section id="interests">
+      <h2 data-pt="Áreas de Interesse" data-en="Areas of Interest">Áreas de Interesse</h2>
+      <ul>
+        <li data-pt="Ciência de Dados" data-en="Data Science">Ciência de Dados</li>
+        <li data-pt="Engenharia de Dados" data-en="Data Engineering">Engenharia de Dados</li>
+        <li data-pt="Business Intelligence" data-en="Business Intelligence">Business Intelligence</li>
+        <li data-pt="Visualização de Dados" data-en="Data Visualization">Visualização de Dados</li>
+        <li data-pt="Estratégia baseada em dados" data-en="Data-driven Strategy">Estratégia baseada em dados</li>
+      </ul>
+    </section>
+
+    <!-- CONTATO / CONTACT -->
+    <section id="contact">
+      <h2 data-pt="Contato" data-en="Contact">Contato</h2>
+      <p data-pt="Você pode me encontrar nas redes abaixo:" data-en="You can find me on the networks below:">
+        Você pode me encontrar nas redes abaixo:
+      </p>
+      <a href="https://www.linkedin.com/in/joaoferreira24/" class="btn-social linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/joaovitorsales15" class="btn-social github" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.instagram.com/saless__/" class="btn-social instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © <span id="year"></span> João Vitor Ferreira Sales. 
+      <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">
+        Todos os direitos reservados.
+      </span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
